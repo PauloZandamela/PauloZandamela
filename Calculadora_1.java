@@ -2,10 +2,10 @@
 import java.io.*;
 
 public class Calculadora_1{
-     public static void main(String [] args) throws IOException{
+    public static void main(String [] args) throws IOException{
 
         BufferedReader x  = new BufferedReader (new InputStreamReader(System.in));
-        double num1, num2, resolutado=0;
+        double num1, num2, resolutado;
         byte op;
 
         System.out.print("Calculadora -  SELECIONE A OPÇÃO: \n1-SOMA \n2-SUBTRAÇÃO \n3-MULTIPLICAÇÃO \n4-DIVISÃO");
@@ -50,7 +50,6 @@ public class Calculadora_1{
                         break;
                 }
         }while(op>=0 || op<=4);
-
     }
 }
 
