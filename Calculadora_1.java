@@ -46,7 +46,7 @@ public class Calculadora_1{
                         break;
 
                         default: 
-                                System.out.println("OPCAO INVALIDA...");
+                                System.out.println("OPCAO INVALIDA TENTE NOVAMENTE...");
                         break;
                 }
         }while(op>=0 || op<=4);
